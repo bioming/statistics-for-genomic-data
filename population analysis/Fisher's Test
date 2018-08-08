@@ -1,0 +1,8 @@
+## Fisher's Exact Test: estimate the significance of allele frequency differences
+    (originated from popoolation)
+    
+The Fishers exact test can be used to test whether any differences in allele 
+frequencies are statistically significant. At low coverages the absolute changes
+of allele frequencies or the Fst values may be strongly influenced by sampling 
+effects, therefore the Fishers exact test may be used to identify significant 
+changes in allele frequency.
