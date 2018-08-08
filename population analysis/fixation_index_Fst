@@ -1,4 +1,6 @@
 ### Fst: a measure of population differentiation due to genetic structure (originated from popoolation and wikipedia)
+More information <https://sourceforge.net/p/popoolation2/wiki/Tutorial/>,
+                 <https://en.wikipedia.org/wiki/Fixation_index>
 
 By default Fst is calculated from the allele-frequencies (not from the allele-counts) using the standard equation as 
 shown in "Hartl and Clark (2007): Principles of Population Genetics"
