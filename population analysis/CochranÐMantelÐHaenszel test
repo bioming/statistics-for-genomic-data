@@ -1,1 +1,4 @@
-
+You use the CochranÐMantelÐHaenszel test (which is sometimes called the MantelÐHaenszel test) for repeated tests
+of independence.There are three nominal variables; you want to know whether two of the variables are independent
+of each other, and the third variable identifies the repeats.
+For more details: http://udel.edu/~mcdonald/statcmh.html
