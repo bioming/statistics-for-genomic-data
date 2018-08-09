@@ -6,3 +6,15 @@ frequencies are statistically significant. At low coverages the absolute changes
 of allele frequencies or the Fst values may be strongly influenced by sampling 
 effects, therefore the Fishers exact test may be used to identify significant 
 changes in allele frequency.
+
+## Formula Romain Feron used in poolsex project to count specific SNPs
+I don't use popoolation to calculate Fst. I only use popoolation to convert mpileup into sync file.
+The tool poolsex_analysis computes Fst, SNPs, and coverage. I use the same formula for Fst as that 
+used in popoolation. For SNPs, I use the following formula:
+For a male specific snp:
+0.5 - x <= male frequency <= 0.5 + x 
+female frequency >= 1 - y
+with x and y adjustable in the parameters (to give a bit of error margin). This way a male specific
+SNP is 0.5 in males (+- some error) and 1 in females (- some error)
+
+##
